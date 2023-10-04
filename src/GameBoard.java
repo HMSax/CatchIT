@@ -47,7 +47,7 @@ public class GameBoard {
         return result.toString();
     }
 
-    public void moveMarker(String aSDW) throws InputMismatchException, IOException {            //Flyttar X åt något håller beroende på vad användaren anger.
+    public void moveMarker(String aSDW) throws InputMismatchException, IOException {            //Flyttar X åt något håll beroende på vad användaren anger.
         String asdw = aSDW.toLowerCase();
         Scanner scan = new Scanner(this.locationOfMarkerX());
         boolean tryAgain = true;

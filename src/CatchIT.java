@@ -4,6 +4,7 @@ import java.io.InputStreamReader;
 import java.util.InputMismatchException;
 import java.util.concurrent.TimeUnit;
 
+//HUVUDPROGRAMMET - Körs med fördel i kommandotolken/command prompt för att clearScreen-metoden ska fungera.
 public class CatchIT {
     public static void main(String[] args) throws InputMismatchException, IOException, InterruptedException {
         String playAgain;
